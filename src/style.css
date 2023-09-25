@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #041a1a;
+}
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.btn {
+  border: none;
+  border-radius: 20px;
+  background-color: #00ffff;
+  padding: 15px 15px;
+  margin: 5px 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #117575;
+  color: #f0f8ff;
+  font-weight: 600;
+}
+
+.counter-label {
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  color: #f0f8ff;
+}
